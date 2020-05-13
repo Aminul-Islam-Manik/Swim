@@ -1,0 +1,741 @@
+/* 
+Small devices (portrait phones,less then 576px)
+*/
+
+@media (max-width: 575.98px) {
+
+  .ml-auto, .mx-auto {
+    align-items: end;
+}
+
+.banner-inner h1 {
+  font-size: 23px;
+  padding: 0;
+  margin: 63px 0px 10px 20px;
+}
+.header .banner-inner-right {
+  margin-top: -53px;
+}
+.banner-inner-right p span {
+  color: #035866;
+}
+.feature {
+  padding: 76px 0;
+}
+.coursrs {
+  padding: 0;
+}
+.coursrs::before {
+  bottom: 39%;
+  left: -104px;
+
+}
+.coursrs-inner img {
+  padding: 0;
+}
+.coursrs-inner h2 {
+  padding: 18px 42px 0px 71px;
+}
+.coursrs-inner p {
+  padding: 11px 100px 0px 73px;
+}
+.coursrs-inner .btn-main {
+  padding: 32px 0px 50px 77px;
+}
+
+
+.registration {
+  padding: 0px;
+}
+.register {
+  margin: 16px 0px 0px;
+  text-align: left;
+}
+.register p {
+  margin: 8px 0px 0px 0px;
+  font-size: 18px;
+  word-spacing: 0px;
+  color: #fff;
+  line-height: 19px;
+  padding: 0px 170px 0px 0px;
+}
+.btn-register {
+  padding: 14px 0px 30px 0px;
+}
+
+
+
+.about-right{
+  text-align: center;
+}
+.about-right h1 {
+  margin-top: 48px;
+}
+.about-right h4 {
+  padding: 0px;
+}
+.about-right p {
+  margin-right: 0px;
+  letter-spacing: 0px;
+  word-spacing: 0px;
+}
+.btn-main {
+  padding: 14px 0px 0px 23px;
+}
+.about-left img {
+  width: 100%;
+  height: 100%;
+}
+.about-left::before {
+
+  left: -30%;
+  bottom: -34%;
+}
+.slider .main-tittle h1 {
+  font-size: 38px;
+}
+.slider1 {
+  padding: 0;
+}
+
+.icon {
+  margin-top: -68px;
+  margin-left: 32px;
+}
+.sicon{
+  margin-right: 0px;
+}
+.item-bottom {
+  left: -40%;
+}
+.item-bottom h4 {
+  padding: 7px 0px 0px 0px;
+  font-size: 18px;
+}
+.item-bottom p {
+  font-size: 14px;
+}
+.carousel-control-next, .carousel-control-prev {
+  margin-top: -16px;
+}
+
+
+.items-inner p {
+  padding: 0px;
+  font-size: 10px;
+}
+.items-inner h1 {
+  font-size: 24px;
+}
+.items-inner {
+  bottom: 145px;
+}
+.owl-theme .owl-dots .owl-dot span {
+  top: -160px;
+}
+
+.gallary{
+  padding: 20px;
+  margin-top: -140px;
+}
+.main-tittle h1{
+  margin-top: 45px;
+}
+.gallary-inner img {
+  width: 100%;
+  height: 398px;
+  padding: 15px;
+}
+.gallary-bottom {
+  margin-top: -74px;
+  padding: 90px 0;
+}
+
+
+.download-middle{
+  padding: 0px;
+}
+.download-inner h1 {
+  padding: 6px 0px 0px 23px;
+  font-size: 20px;
+}
+.btn-download {
+  padding: 225px 0px 16px 22px;
+}
+.btn-download .btn-info {
+  padding: 7px 11px;
+  font-size: 12px;
+}
+.item-inner h1{
+  font-size: 16px;
+}
+.item h1{
+  margin-bottom: 30px;
+}
+.gallary-bottom h4 {
+  margin-bottom: 31px;
+}
+
+.footer-right {
+  text-align: center;
+}
+.footer-right h1 {
+  margin-top: 20px;
+  padding: 0px;
+  font-size: 23px;
+}
+.footer-right p {
+  padding-right: 0px;
+  margin-top: 0px;
+}
+.footer-center{
+  margin: 36px;
+}
+.footer-left{
+  margin: 36px;
+}
+.icon-footer {
+  margin-left: 26px;
+}
+.ficon{
+  width: 30px;
+  height: 30px;
+  margin-right: 0;
+}
+
+
+
+}
+
+
+  /* 
+Small devices (landscape phones, 576px and up)
+  */
+  
+  @media (min-width: 576px) and (max-width: 767.98px) {
+
+    .ml-auto, .mx-auto {
+      align-items: end;
+  }
+
+
+
+    .header .banner-inner-right {
+      margin-top: -99px;
+      text-align: right;
+  }
+    .banner-inner h1 {
+      font-size: 44px;
+      padding: 144px 173px 20px 19px;
+  }
+  .banner-inner-right p span {
+    color: #035866;
+}
+  .about-left::before {
+    content: '';
+    position: absolute;
+    background: url(../img/design2.png) center top no-repeat;
+    width: 100%;
+    height: 100%;
+    left: -34%;
+    bottom: -63%;
+}
+
+.slider1 {
+  padding: 0;
+}
+
+.gallary{
+  padding: 20px;
+  margin-top: -152px;
+}
+.main-tittle h1{
+  margin-top: 50px;
+}
+.gallary-inner img {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+.gallary-bottom {
+  margin-top: -74px;
+  padding: 90px 0;
+}
+.gallary-bottom h4 {
+  margin-bottom: 45px;
+}
+
+
+
+.coursrs-inner{
+  text-align: center;
+}
+.coursrs::before {
+  bottom: 36%;
+  left: 53px;
+}
+.coursrs-inner h2 {
+  padding: 18px 42px 0px 71px;
+}
+.coursrs-inner p {
+  padding: 11px 100px 0px 126px;
+}
+.coursrs-inner .btn-main {
+  padding: 18px 0px 50px 44px;
+}
+
+.item h1 {
+  margin-bottom: 17px;
+}
+
+.banner-inner h1 {
+    font-size: 38px;
+    padding: 37px 0px 20px 19px;
+}
+
+.banner-inner-right p span {
+  color: #fff;
+}
+
+.about-right{
+  text-align: center;
+  padding-top: 20px;
+}
+.about-right h4{
+  padding: 15px 0px 15px 0px;
+}
+.about-right p{
+  margin-right: 0px;
+}
+.about-right .btn-main{
+  padding: 0;
+}
+
+.item-bottom {
+  left: -44%;
+}
+.item-bottom h4 {
+  padding: 7px 0px 0px 0px;
+  font-size: 18px;
+}
+.item-bottom p {
+  font-size: 14px;
+}
+.carousel-control-next, .carousel-control-prev {
+  margin-top: -27px;
+}
+.icon {
+  margin-top: -68px;
+  margin-left: 11px;
+}
+
+.items-inner p {
+  padding: 0px 78px;
+  font-size: 11px;
+}
+.items-inner h1 {
+  font-size: 28px;
+}
+.items-inner {
+  bottom: 193px;
+}
+.owl-theme .owl-dots .owl-dot span {
+  top: -160px;
+}
+
+
+
+
+
+
+
+.feature {
+  padding: 75px 0;
+}
+
+
+
+.download-middle{
+  padding: 37px;
+}
+.download-inner h1 {
+  padding: 6px 0px 0px 87px;
+  font-size: 20px;
+}
+.btn-download {
+  padding: 254px 0px 16px 93px;
+}
+.btn-download .btn-info {
+  padding: 7px 20px;
+  font-size: 12px;
+  margin: 0px 59px;
+}
+
+
+
+.registration {
+  padding: 12px;
+}
+.register {
+  margin: 10px 0px 0px;
+  text-align: left;
+}
+.register p {
+  margin: 8px 0px 0px 0px;
+  font-size: 18px;
+  word-spacing: 0px;
+  color: #fff;
+  line-height: 19px;
+  padding: 0px 177px 0px 0px;
+}
+.btn-register {
+  padding: 14px 0px 30px 0px;
+}
+
+
+.footer-right {
+  text-align: center;
+}
+.footer-right h1 {
+  margin-top: 20px;
+  padding: 0px;
+  font-size: 23px;
+}
+.footer-right p {
+  padding-right: 0px;
+  margin-top: 0px;
+}
+.footer-center{
+  margin: 36px;
+}
+.footer-left{
+  margin: 36px;
+}
+.icon {
+  margin-top: -68px;
+  margin-left: 23px;
+}
+.sicon{
+  margin-right: 0px;
+}
+.icon-footer {
+  margin-left: 20px;
+}
+.ficon{
+  margin-right: 3px;
+}
+
+
+
+
+  }
+
+
+  /* 
+Medium devices (tablets, 768px and up)
+  */
+  
+  @media (min-width: 768px) and (max-width: 991.98px) {
+
+    .ml-auto, .mx-auto {
+      align-items: end;
+  }
+
+  .banner-inner-right p span {
+    color: #044046;
+}
+    .about-right h4 {
+      padding: 15px 22px 15px 0px;
+  }
+
+  .about-right p {
+    padding:0px;
+    margin-right: -67px;
+}
+.coursrs::before {
+  bottom: 149px;
+  left: -42px;
+}
+.coursrs-inner img {
+  width: 100%;
+}
+
+.coursrs-inner h2 {
+  padding: 0px 5px 0px 20px;
+}
+
+.coursrs-inner p {
+  padding: 11px 22px 0px 20px;
+}
+
+.banner-inner h1 {
+  font-size: 25px;
+  padding: 23px 8px 20px 19px;
+  letter-spacing: 0px;
+}
+.banner-inner p {
+  font-size: 16px;
+  padding: 0px 0px 0px 23px;
+}
+.banner-inner-right {
+  margin-top: 214px;
+}
+
+.feature {
+  width: 100%;
+  padding: 90px 0;
+}
+
+.feature-inner h2 {
+  padding: 15px 55px 2px 42px;
+}
+.feature-inner p {
+  padding:0px;
+}
+
+.item-bottom {
+  left: -28%;
+}
+
+.items-inner h1 {
+  padding: 0px;
+  font-size: 10px;
+}
+
+
+.items-inner p {
+  padding: 0px 78px;
+  font-size: 16px;
+}
+.items-inner h1 {
+  font-size: 28px;
+  margin-bottom: 42px;
+}
+.items-inner {
+  bottom: 252px;
+}
+.owl-theme .owl-dots .owl-dot span {
+  top: -210px;
+}
+
+
+.item h1 {
+  margin-bottom: 42px;
+}
+
+.slider1 {
+  padding: 0;
+}
+.icon {
+  margin-top: -68px;
+  margin-left: 53px;
+}
+
+
+
+.gallary-bottom h4 {
+  margin-bottom: 45px;
+}
+.gallary{
+  padding: 20px;
+  margin-top: -240px;
+}
+.main-tittle h1{
+  margin-top: 60px;
+}
+.gallary-inner img {
+  padding: 6px;
+}
+.gallary-bottom {
+  margin-top: -74px;
+  padding: 90px 0;
+}
+
+
+.download-middle {
+  padding: 123px 0;
+}
+.download-inner h1 {
+  padding: 48px 0px 0px 140px;
+  font-size: 28px;
+}
+.btn-download {
+  padding: 172px 0px 46px 156px;
+}
+.btn-download .btn-info {
+  padding: 7px 31px;
+  font-size: 12px;
+  margin: 0px 54px;
+}
+
+
+
+
+
+
+.registration {
+  padding: 23px;
+}
+.register {
+  margin: 17px 0px 0px;
+  text-align: left;
+}
+.register p {
+  margin: 8px 0px 0px 0px;
+  font-size: 18px;
+  word-spacing: 0px;
+  color: #fff;
+  line-height: 19px;
+  padding: 18px 0px;
+}
+.btn-register {
+  padding: 14px 0px 30px 0px;
+}
+.registration::before {
+  top: 60%;
+  right: 0%;
+}
+
+
+
+.carousel-control-next, .carousel-control-prev {
+  margin-top: -87px;
+}
+
+.footer-right h1 {
+  padding: 29px 61px 20px 0px;
+  font-size: 35px;
+  line-height: 35px;
+}
+.icon {
+  margin-top: -68px;
+  margin-left: 32px;
+}
+.sicon{
+  margin-right: 19px;
+}
+.icon-footer {
+  margin-left: 16px;
+}
+.ficon{
+  margin-right: 0px;
+}
+
+
+
+
+  }
+
+
+  /* 
+Large devices (Desktops, 992px and up)
+  */
+  
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .feature {
+      padding: 181px 0;
+  }
+  .feature-inner p {
+    padding: 0;
+}
+
+    .coursrs-inner h2 {
+      padding: 0px 79px 0px 20px;
+    }
+    
+    .coursrs-inner p {
+      padding: 11px 117px 0px 20px;
+    }
+
+    .download-middle {
+      padding: 171px 0;
+    }
+    .download-inner h1 {
+      padding: 90px 0px 0px 140px;
+      font-size: 36px;
+    }
+    .btn-download {
+      padding: 172px 0px 46px 156px;
+    }
+    .btn-download .btn-info {
+      padding: 9px 44px;
+      font-size: 15px;
+    }
+
+
+
+    .registration {
+      padding: 64px;
+    }
+    .register {
+      margin: 17px 0px 0px;
+      text-align: left;
+    }
+    .register p {
+      margin: 8px 0px 0px 0px;
+      font-size: 18px;
+      word-spacing: 1px;
+      color: #fff;
+      line-height: 24px;
+      padding: 22px 178px 36px 0px;
+    }
+    .btn-register {
+      padding: 14px 0px 30px 0px;
+    }
+
+  
+    .about-right h4{
+      padding: 15px 0px 15px 0px;
+      font-size: 15px;
+    }
+    .about-right p{
+      margin-right: 0px;
+    }
+    .about-right .btn-main{
+      padding: 0px 19px;
+    }
+
+    .icon {
+      margin-top: -83px;
+      margin-left: 101px;
+    }
+    .sicon{
+      margin-right: 19px;
+    }
+    .icon-footer {
+      margin-left: 16px;
+    }
+    .ficon{
+      margin-right: 0px;
+    }
+
+
+
+
+
+  }
+    
+
+  /* 
+Extra large devices (large desktops, 1200px and up)
+  */
+  
+  @media (min-width: 1200px) {
+
+    .icon {
+      margin-top: -83px;
+      margin-left: 101px;
+    }
+    .sicon{
+      margin-right: 19px;
+    }
+    .icon-footer {
+      margin-left: 16px;
+    }
+    .ficon{
+      margin-right: 0px;
+    }
+
+    
+  }
